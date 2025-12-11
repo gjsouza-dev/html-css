@@ -27,13 +27,19 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+article {
+    text-align: justify;
+}
+
 header { 
     background-color: var(--cor4);
+    padding: 15px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--font-padrao);
+    
 }
 
 header > p {
@@ -42,6 +48,8 @@ header > p {
 
 nav {
      background-color: var(--cor5);
+     padding: 15px;
+     text-decoration: none;
 }
 
 h1 {
@@ -70,5 +78,7 @@ main h3 {
 
 footer {
     background-color: black;
-    color: white
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
